@@ -1,6 +1,6 @@
 /* TEAM */
                             
-Your title: Your name.                        
+Your title: Scriptworld.                        
 Site: email, link to a contact form, etc.                         
 Twitter: your Twitter username.                        
 Location: City, Country.
@@ -8,9 +8,9 @@ Location: City, Country.
 
 /* THANKS */
 
-HTML5 Muffin
-This is a Frappuccino Blog
-Name: name or url
+HTML5 ADBCD
+This is a simple Tutorial Blog
+Name: http://www.adbcd.com
 
                             
 /* SITE */

@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://www.adbcd.com'
 
 gem 'sass'
 gem 'jekyll'
