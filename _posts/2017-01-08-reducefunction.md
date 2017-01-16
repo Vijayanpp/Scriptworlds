@@ -44,11 +44,12 @@ The value that results from the reduction.
 
 <h3>Description</h3>
 <p>reduce executes the callback function once for each element present in the array, excluding holes in the array, receiving four arguments:</p>
-
+<pre>
 accumulator
 currentValue
 currentIndex
 array
+</pre>
 <p>The first time the callback is called, accumulator and currentValue can be one of two values. If initialValue is provided in the call to reduce, then accumulator will be equal to initialValue and currentValue will be equal to the first value in the array. If no initialValue was provided, then accumulator will be equal to the first value in the array and currentValue will be equal to the second.In above example we provided the initialvalue 0.So  accumulator is  0 and initial value is 1.</p>
 
 <h3>Example</h3>
