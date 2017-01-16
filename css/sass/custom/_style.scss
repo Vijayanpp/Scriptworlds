@@ -69,7 +69,11 @@ main.container, main.content > .container{
        min-height: 58em;  
     }
 }
-
+article.post
+{
+    min-height:100vh!important;
+    background:#000;
+}
 .content h1{
     font-family: Georgia, "Times New Roman", Times, serif;
      @extend .center-txt;
