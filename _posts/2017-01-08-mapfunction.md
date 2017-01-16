@@ -1,6 +1,6 @@
 ---
 layout: post_page
-title:Understand JavaScript map() function
+title: JavaScript map() function
 ---
 
 JavaScript’s map function is an extremely useful method for JavaScript devlopers, but it can also be a bit confusing for beginners.So what is Javascript map() function.The map() method creates a new array with the results of calling a  function on every element in this array.The map() method calls the provided function once for each element in an array, in order.This method does not execute the function for array elements without values .It doesn't change the original array instead it will return a new array
@@ -90,4 +90,4 @@ return false;
 
  <h3>Conclusion</h3>
 
- map() is an intersting and very important method in JavaScript Array, so it’s well worth taking the time to understand it. Hopefully this short tutorial help you to undestand the map() method
+ map() is an intersting and very important method in JavaScript Array, so it’s well worth taking the time to understand it. Hopefully this short tutorial help you to undestand the map()
