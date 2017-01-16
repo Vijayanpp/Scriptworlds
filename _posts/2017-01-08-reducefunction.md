@@ -8,20 +8,22 @@ JavaScript’s reduce function is an another useful method in JavaScript.The red
 <h3>Example</h3>
 
 <div class='code'>
+<pre>
 var n=[1,2,3,4,5]
 var sum=n.reduce((a,b)=>{
 return a+b},0)
 
 //sum 15
+</pre>
 </div>
 
 
-<h3>Syntax of map() function</h3>
+<h3>Syntax of reduce() function</h3>
 
  arr.reduce(callback, [initialValue])
 
  <h3>Parameters</h3>
-
+<pre>
 callback
 	Function to execute on each value in the array, taking four arguments:
 	accumulator
@@ -34,7 +36,7 @@ callback
 	The array reduce was called upon.
 	initialValue
 	Optional. Value to use as the first argument to the first call of the callback.
-
+</pre>
 Return value
 
 The value that results from the reduction.
