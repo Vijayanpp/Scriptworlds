@@ -24,7 +24,7 @@ body{
 }
 
 main.container, main.content > .container{
-    width:50em;
+   /* width:50em;*/
 }
 
 // 1. a Font
@@ -72,6 +72,7 @@ main.container, main.content > .container{
 article.post
 {
     min-height:100vh!important;
+    padding:15px;
     
 }
 .content h1{
@@ -176,9 +177,9 @@ article.post
     h2{
         font-family: Georgia, 'Times New Roman', Times, serif;
         @extend .center-txt;
-        font-size: 5em;
-        padding: 1.5em 0 0.5em;
-        letter-spacing: 0.05em;
+            font-size: 3em;
+    padding: 2.5em 0 0.5em;
+    letter-spacing: 0.05em;
     }
 
     section{
