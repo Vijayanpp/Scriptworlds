@@ -32,7 +32,7 @@ callback
 	The current element being processed in the array.
 	<b><i>currentIndex</i></b>
 	The index of the current element being processed in the array. Starts at index 0, if an initialValue is provided, and at index 1 otherwise.
-	array
+	<b><i>array</i></b>
 	The array reduce was called upon.
 	<b><i>initialValue</i></b>
 	Optional. Value to use as the first argument to the first call of the callback.
@@ -144,7 +144,7 @@ return a+b})
 </pre>
 </div>
 
-<b>Note:</b> <p>If initialValue isn't provided, reduce will execute the callback function starting at index 1, skipping the first index. If initialValue is provided, it will start at index 0.</p>
+<b>Note:</b>If initialValue isn't provided, reduce will execute the callback function starting at index 1, skipping the first index. If initialValue is provided, it will start at index 0.
 
 <h3>Example</h3>
 
