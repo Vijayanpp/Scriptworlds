@@ -1,10 +1,41 @@
 ---
 layout: post_page
-title: Lorem
+title: JavaScript map() function
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+JavaScript’s map function is an extremely useful method for JavaScript devlopers, but it can also be a bit confusing for beginners.So what is Javascript map() function.The map() method creates a new array with the results of calling a  function on every element in this array.The map() method calls the provided function once for each element in an array, in order.This method does not execute the function for array elements without values .It doesn't change the original array instead it will return a new array
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+<h3>Example</h3>
 
-	<p> Laying down some code with markdown</p>
+<div class='code'>
+var numbers = [4, 9, 16, 25];
+
+var roots = numbers.map(function(x){
+   return x * 2;
+});
+
+/ roots is now [16, 81, 256, 525]
+// numbers is still [4, 9, 16, 25]
+</div>
+
+
+<h3>Syntax of map() function</h3>
+
+ var newarray = arr.map(callback[, thisArg])
+
+ <h3>Parameters</h3>
+
+callback
+Function that produces an element of the new Array, taking three arguments:
+ 
+	currentValue
+	The current element being processed in the array.
+	index
+	The index of the current element being processed in the array.
+	array
+	The array map was called upon.
+	thisArg
+	Optional. Value to use as this when executing callback.
+Return value
+
+A new array with each element being the result of the callback function.
