@@ -26,15 +26,15 @@ return a+b},0)
 <pre>
 callback
 	Function to execute on each value in the array, taking four arguments:
-	accumulator
+	<i>accumulator</i>
 	The accumulated value previously returned in the last invocation of the callback, or initialValue, if supplied. (See below.)
-	currentValue
+	<i>currentValue</i>
 	The current element being processed in the array.
-	currentIndex
+	<i>currentIndex</i>
 	The index of the current element being processed in the array. Starts at index 0, if an initialValue is provided, and at index 1 otherwise.
 	array
 	The array reduce was called upon.
-	initialValue
+	<i>initialValue</i>
 	Optional. Value to use as the first argument to the first call of the callback.
 </pre>
 Return value
@@ -54,9 +54,11 @@ array
 <h3>Example</h3>
 
 <div class='code'>
+<pre>
 [0,1,2,3,4].reduce( (accumulator, currentValue, currentIndex, array) => {
   return accumulator + currentValue;
 }, 10)
+</pre>
 </div>
 
 In above example
@@ -129,11 +131,13 @@ if initial value is 5 then sum will be 20
 <p>So now we have to conside the another case, what will be the return value  if there is no initial vale.</p>
 
 <div class='code'>
+<pre>
 var n=[1,2,3,4,5]
 var sum=n.reduce((a,b)=>{
 return a+b})
 
 //sum 15
+</pre>
 </div>
 
 <b>Note:</b> <p>If initialValue isn't provided, reduce will execute the callback function starting at index 1, skipping the first index. If initialValue is provided, it will start at index 0.</p>
@@ -141,11 +145,11 @@ return a+b})
 <h3>Example</h3>
 
 <div class='code'>
-
+<pre>
 [0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array) {
   return accumulator + currentValue;
 });
-
+</pre>
 </div>
 
 In abouve example accumulator=0(first element),currentValue=1,currentIndex=1,array=[0,1,2,3,4]
@@ -205,21 +209,25 @@ In abouve example accumulator=0(first element),currentValue=1,currentIndex=1,arr
 <h3>Examples</h3>
 
 <div class='code'>
+<pre>
 var n=[1];
 var sum=n.reduce((a,b)=>
                  {
 return a+b})
 
 //sum 1
+</pre>
 </div>
 
 <div class='code'>
+<pre>
 var n=[];
 var sum=n.reduce((a,b)=>
                  {
 return a+b},10)
 
 //sum 10
+</pre>
 </div>
 
 
