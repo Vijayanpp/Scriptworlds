@@ -26,29 +26,30 @@ return a+b},0)
 <pre>
 callback
 	Function to execute on each value in the array, taking four arguments:
-	<i>accumulator</i>
-	The accumulated value previously returned in the last invocation of the callback, or initialValue, if supplied. (See below.)
-	<i>currentValue</i>
+	<b><i>accumulator</i></b>
+	The accumulated value previously returned in the last invocation of the callback, or initialValue,if supplied
+	<b><i>currentValue</i></b>
 	The current element being processed in the array.
-	<i>currentIndex</i>
+	<b><i>currentIndex</i></b>
 	The index of the current element being processed in the array. Starts at index 0, if an initialValue is provided, and at index 1 otherwise.
 	array
 	The array reduce was called upon.
-	<i>initialValue</i>
+	<b><i>initialValue</i></b>
 	Optional. Value to use as the first argument to the first call of the callback.
 </pre>
-Return value
+
+<h3>Return value</h3>
 
 The value that results from the reduction.
 
 
 <h3>Description</h3>
-<p>reduce executes the callback function once for each element present in the array, excluding holes in the array, receiving four arguments:</p>
+<p>Reeduce executes the callback function once for each element present in the array.Reduce function receieves four arguments:</p>
 <pre>
-accumulator
-currentValue
-currentIndex
-array
+1.accumulator
+2.currentValue
+3.currentIndex
+4.array
 </pre>
 <p>The first time the callback is called, accumulator and currentValue can be one of two values. If initialValue is provided in the call to reduce, then accumulator will be equal to initialValue and currentValue will be equal to the first value in the array. If no initialValue was provided, then accumulator will be equal to the first value in the array and currentValue will be equal to the second.In above example we provided the initialvalue 0.So  accumulator is  0 and initial value is 1.</p>
 
@@ -125,8 +126,10 @@ accumulator =10,currentValue=1,currentIndex=0,array=[0,1,2,3,4]
 Alos consider the cases
 
 <div class='code'>
+<pre>
 if initial value is 3 then sum will be 18
 if initial value is 5 then sum will be 20
+</pre>
 </div>
 
 <p>So now we have to conside the another case, what will be the return value  if there is no initial vale.</p>
