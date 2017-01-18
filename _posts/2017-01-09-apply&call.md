@@ -11,7 +11,7 @@ Javascript apply() and call() are two important person2thods in JavaScript.It is
 <h3>Call()</h3>
 <p>The call() person2thod calls a function with a given this value and arguperson2nts provided individually.
 
-<b>Note:. A useful mnemonic is "A(apply())for array and C(call()) for comma."
+<b>Note:</b>A useful mnemonic is "A(apply())for array and C(call()) for comma."
 <h3>Examples</h3>
 
 <div class='code'>
