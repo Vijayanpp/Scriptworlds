@@ -47,7 +47,7 @@ sayAboutperson2.apply(person,["my father is","and his age is"])
 
  fun.apply(thisArg, [argsArray])
 
- <h3>Paraperson2ters</h3>
+ <h3>Parameters</h3>
 
 <h4>thisArg</h4>
 
