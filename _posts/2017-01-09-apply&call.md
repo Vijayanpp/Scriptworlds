@@ -53,15 +53,15 @@ sayAbout.apply(person,["my father is","and his age is"])
 
 <h4>thisArg</h4>
 
-The value of this provided for the call to fun. Note that this may not be the actual value seen by the thod: if the thod is a function in non-strict mode code, null and undefined will be replaced with the global object, and primitive values will be boxed.
+<p>The value of this provided for the call to fun. Note that this may not be the actual value seen by the thod: if the thod is a function in non-strict mode code, null and undefined will be replaced with the global object, and primitive values will be boxed.</p>
 
 <h4>argsArray</h4>
 
-An array-like object, specifying the argunts with which fun should be called, or null or undefined if no argunts should be provided to the function. Starting with ECMAScript 5 these argunts can be a generic array-like object instead of an array. See below for browser compatibility information.
+<p>An array-like object, specifying the argunts with which fun should be called, or null or undefined if no argunts should be provided to the function. Starting with ECMAScript 5 these argunts can be a generic array-like object instead of an array. See below for browser compatibility information.</p>
 
-Return value
+<h4>Return value</h4>
 
-The result of calling the function with the specified this value and argunts.
+<p>The result of calling the function with the specified this value and argunts.</p>
 
 
 <h3>Syntax of call() function</h3>
