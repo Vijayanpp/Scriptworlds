@@ -35,4 +35,4 @@ title:  Linux Internals
 <p>It is important to know the design and development of linux device driver, And how it to port into target processor. Based on target, need to implement the device driver for communicating the user space app with the hardware. Coming class will give introduction on linux device drivers first.</p>
 <p>Device driver in Linux platform for vendor specific device (Say we have accelerometer sensor from Analog semiconductor) on I2C/SPI interface, need two drivers for the proper working of that device. First one is the core device driver which configure the SOC(Application processor) registers and thus make read/write operation through I2C/SPI. Second one is the Vendor specific device driver which is purely dependent on the sensor part(Vendor) used. This device driver configures the interface specification between SOC and sensor, may configure registers of sensor device and vendor device driver calls SOC core device driver to send data over bus (I2C/SPI).</p>
 
-<b>Prabhin CA</b>
+<b>Prabin </b>
